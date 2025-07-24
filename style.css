@@ -62,7 +62,7 @@ span{
     }
     .banner-desc h1{
         font-size: 1.5rem;
-        max-width: 200px;
+        max-width: 200px ;
     }
     .banner-desc p{
         font-size: 0.875rem;
@@ -73,5 +73,56 @@ span{
     .banner-desc{
         margin-left: 16px;
         margin-right: 16px;
+    }
+}
+
+#Our_Plants{
+    margin-bottom: 210px;
+}
+.top-of-section{
+    text-align: center;
+    max-width: 888px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+.plant-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    
+}
+.card{
+    margin-bottom: 30px;
+}
+.card p{
+    text-align: center;
+    color: #111111;
+}
+.card img{
+    margin-bottom: 30px;
+}
+.price{
+    font-weight: 700;
+}
+.primary-btn{
+    background-color: #E95A08;
+    color: #FFFFFF;
+    width: 95%;
+    margin-top: 30px;
+    font-family: "Inter", sans-serif;
+    padding: 20px;
+} 
+
+@media screen and (max-width: 576px) {
+    #Our_Plants{
+        margin-left: 16px;
+        margin-right: 15px;
+    }
+    .plant-cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    }
+    .primary-btn{
+        width: 100%;
     }
 }
